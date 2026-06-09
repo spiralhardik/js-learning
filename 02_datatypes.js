@@ -14,12 +14,22 @@
 let name = "Hardik"
 let age = 18
 let logIn = false
-let state = null;
+let state = undefined;
+let point = BigInt(1234567890123456789012345)
+
+// console.log(age);
+// console.table([name, age, logIn,state])
 
 
-console.log(age);
-console.table([name, age, logIn,state])
+// console.log(typeof null) // 
+// console.log(typeof undefined) //objectundefined
+
+console.log(typeof name);
+console.log(typeof state);
 
 
-console.log(typeof null) //object
-console.log(typeof undefined) //undefined
+let num = "100"
+
+console.log(Number(num));
+
+console.log(String(age));
