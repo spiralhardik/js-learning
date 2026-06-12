@@ -39,8 +39,23 @@ handleObject(user)
 
 let handleArray = [100, 200, 300, 400]
 
-function countArray(getArray){
+function countArray(getArray) {
     return getArray[0]
 }
 
 console.log(countArray(handleArray))
+
+//
+
+function newFunction(total1, total2) {
+    return (total1 * total2)
+}
+console.log(newFunction(5, 6));
+
+//
+
+function subTotal(...a) {
+    return (a)
+}
+
+console.log(subTotal(50, 60, 70, 80));
